@@ -35,7 +35,7 @@ holdbtn.addEventListener('click', ()=> {
       gameOver = true
       document.querySelector('.player--0').classList.remove('player--active')
       document.querySelector('.player--1').classList.remove('player--active')
-      document.querySelector(`'.player--${activePlayer}'`).classList.add('player--winner')
+      document.querySelector(`.player--${activePlayer}`).classList.add('player--winner')
     } else{
       switchPlayer()
     }
